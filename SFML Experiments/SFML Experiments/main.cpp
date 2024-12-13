@@ -1,12 +1,8 @@
-#include <SFML/Graphics.hpp>
+#include "First Game/First-Game.h"
 
 int main() {
 
-	sf::Window window(sf::VideoMode(10, 10), "Graphics");
-
-	while (window.isOpen()) {
-
-	}
+	firstGame();
 
 	return 0;
 }
